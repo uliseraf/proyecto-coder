@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="ulise rivero">
+    <meta name="description" content="portafolio de desarrollo web de jane doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- titulo -->
+    <title>Todo futbol | todo el tiempo</title>
+    <!-- Favicon -->
+     <link rel="icon" type="imagen/x-icon" href="imagenes/logo.png">
+    <!-- bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- inoconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+            <a class="navbar-brand" href="#">
+                <img class="logo-barra" src="imagenes/icono.png" width="60" alt="logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Explora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#iconicos">Iconicos</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- seccion hero -->
+       <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador" src="imagenes/foto futbol.avif" alt="foto balon de futbol">
+            <h1>Todo futbol, todo el tiempo</h1>
+            <h2>El ricon del fútbol: noticias, análisis y más</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.jpg" alt="foto de un estadio de futbol">
+        </div>
+       </section>
+        <!-- sobre mi  -->
+       <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h1 class="seccion-titulo">Acerca del blog</h1>
+            <p class="seccion-texto">Este blog está dedicado a los apasionados del fútbol. aqui encontrarás historias, análisis de partidos, curiosidades, y contenido pensado para compartir nuestra pasion por el deporte rey. ¡Únete a esta comunidad y vive el futbol desde otra perspectiva!.
+
+            </p>
+        </div>
+       </section>
+
+       <!-- experiencias -->
+       <section class="experiencia seccion-clara">
+        <div class="container text-center">
+         <div class="row">
+          <!-- Análisis -->
+           <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Análisis de partidos</p>
+            <p>Descube analisis detallados de los partidos más importantes, estadísticas clave y oponiones de los momentos decisivos que definen el futbol.</p>
+             <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Tacticas</span>
+                <span class="badge text-bg-primary">Estrategias</span>
+                <span class="badge text-bg-primary">Estadísticas</span>
+             </div>
+        </div>
+           <!-- Noticias -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Noticias y Opiniones</p>
+                <p>Mantente informado con las últimas noticias del mundo futbolístico y reflexiona con opiniones sobre los temas más debatidos en el deporte.</p>
+                 <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Actualidad</span>
+                    <span class="badge text-bg-primary">Rumores</span>
+                    <span class="badge text-bg-primary">Transferencias</span>
+                 </div>
+            </div>
+            <!-- fanaticos -->
+             <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Para fanáticos</p>
+                <p>Contenido pensado para los fanáticos: curiosidades, datos históricos y todo lo que un amante del futbol necesita saber.</p>
+                 <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Curiosidades</span>
+                    <span class="badge text-bg-primary">Historia</span>
+                    <span class="badge text-bg-primary">Clasicos</span>
+                 </div>
+             </div>
+         </div>
+        </div>
+       </section>
+       
+       <!-- proyectos -->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo text-negro">Explora el futbol</h2>
+            <h3 class="seccion-descripcion">Todo lo que necesitas saber, analisis, noticias destacadas, fichajes...</h3>
+            <!-- galeria de proyecto -->
+             
+            <div class="container text-center proyectos-contenedor">
+               <div class="row">
+                <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/fichajes y rumores.jpg" alt="foto sobre Transferencias de jugadores">
+                        <div class="overlay">
+                            <p>Fichajes y rumores</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://www.transfermarkt.com.ar/navigation/transfersundgeruechte" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/noticias destacadas.png" alt="Foto sobre noticias de futbol">
+                        <div class="overlay">
+                            <p>Noticias destacadas</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://www.tycsports.com/futbol-de-europa.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/tabla de posiciones.png" alt="Tabla de posisiones">
+                        <div class="overlay">
+                            <p>Tabla de posiciones</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://canchallena.lanacion.com.ar/futbol/la-liga-2024-2025/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/jugadas y momentos.png" alt="Imagen de jugadas">
+                        <div class="overlay">
+                            <p>Mejores jugadas y momentos</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://www.uefa.com/uefachampionsleague/video/moments/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/mejores jugadores.jpg" alt="foto de mejores jugadores">
+                        <div class="overlay">
+                            <p>Mejores jugadores</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://www.ole.com.ar/futbol-internacional/lionelmessi-julianalvarez-lautaromartinez-dibumartinez-enzofernandes-molina-revistafourfourtwo-mejores100_0_N1vr7VxaAh.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 6 --> 
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/analisis y estadisticas.jpg" alt="proyecto 1">
+                        <div class="overlay">
+                            <p>Analisis y estadísticas</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://betmines.com/es/analisis-de-partidos-de-futbol-con-pronosticos" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-hand-index"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- articulos -->
+         <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo text-negro">Momentos históricos</h2>
+            <div class="card">
+                <div class="card-header">
+                  Revive los momentos que marcaron la Historia del deporte rey
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="articulo-1.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">El torneo de los 117 equipos y otras historias del fútbol en 1879
+                        </li>
+                    </a>
+                    <a href="articulo-2.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Escocia, rey del fútbol</li>
+                    </a>
+                    <a href="articulos.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Memoria viva de Talleres de Remedios de Escalada </li>
+                    </a>
+                    <a href="articulos.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">El tamaño de los arcos</li>
+                    </a>
+                    <a href="articulos.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">¿Quién hubiera ganado el Balón de Oro en 1873?</li>
+                    </a>
+                    <a href="articulos.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">¿CUÁL FUE EL PRIMER CAMPEÓN DE LA HISTORIA DEL FÚTBOL?</li>
+                    </a>
+                </ul>
+              </div>
+              <a href="articulos.html" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-info">
+                    Ver mas articulos   
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+                 </a>   
+         </section>
+
+         <!-- Iconicos -->
+          <section id="iconicos" class="iconicos seccion-clara">
+            <h2 class="seccion-titulo">Momentos iconicos</h2>
+            <h3 class="seccion-descripcion">Estas son algunas de las portadas mas destacadas</h3>
+            
+            <!-- carrusel -->
+            <div id="iconicos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                        <img class="iconicos-imagen" src="imagenes/pele-copa.jpg" alt="pele con la copa de mundo">
+                        <p class="testimonio-texto">Pele levantando la copa del mundo 1958.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="container">
+                        <img class="iconicos-imagen" src="imagenes/mano-de-dios.jpg" alt="mano de dios maradona">
+                        <p class="testimonio-texto">Mano de Dios, Argentina vs Inglatella Mexico 1986.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="container">
+                        <img class="iconicos-imagen" src="imagenes/cabezaso.jpg" alt="cabezazo de Zidane">
+                        <p class="testimonio-texto">Cabezazo de Zidane a Materazzi, final del mundo 2006.</p>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#iconicos-carrusel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#iconicos-carrusel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+           
+          </section>
+
+          <!-- contacto -->
+           <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contactame para sugerencias, aportaciones y cualquier tipo de informacion, estamos para mejorar
+                        </div>
+                        <div class="col-12 col-md-4">
+                          <a href="mailto:janedoe@micorreo.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+           
+           <!-- pie de pagina (footer) -->
+            <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+               <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo de portafolio">
+               <p class="footer-texto text-center">Aprendamos juntos sobre nuestro deporte favorito.</p>
+               <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                 <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter-x"></i>
+                 </a>
+                 <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                 </a>
+                 <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                 </a>
+                 <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-envelope"></i>
+                 </a>
+               </div>
+            </footer>
+
+        
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
