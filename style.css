@@ -449,7 +449,7 @@ body {
     }
 
     .imagen {
-        max-width: 300px; /* Imagen aún más pequeña en pantallas pequeñas */
+        max-width: 300px; 
     }
 }
 
@@ -467,7 +467,6 @@ body {
     }
 
     .imagen {
-        max-width: 250px; /* Imagen ajustada para móviles */
+        max-width: 250px; 
     }
 }
-
