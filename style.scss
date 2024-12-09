@@ -17,20 +17,20 @@ $color-categoria: #007bff;
 
   &__contenedor {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); // Dos columnas por defecto
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
 
   // Responsividad
   @media (max-width: 1024px) {
     &__contenedor {
-      grid-template-columns: repeat(2, 1fr); // Dos columnas en tablet
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
 
   @media (max-width: 768px) {
     &__contenedor {
-      grid-template-columns: 1fr; // Una columna en móviles
+      grid-template-columns: 1fr; 
     }
   }
 }
