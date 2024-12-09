@@ -1,26 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias Destacadas</title>
+  <link rel="stylesheet" href="noticias.css">
 </head>
 <body>
-    <section class="noticias-destacadas">
-        <h2>Fútbol de Europa</h2>
-        <div class="noticias-grid">
-          <div class="noticia">
-            <img src="imagen1.jpg" alt="Noticia 1">
-            <p class="categoria">Premier League</p>
-            <h3>La Premier implementará una nueva regla para evitar que los arqueros pierdan tiempo</h3>
-          </div>
-          <div class="noticia">
-            <img src="imagen2.jpg" alt="Noticia 2">
-            <p class="categoria">Fútbol Internacional</p>
-            <h3>Mourinho salió a contestarle a Guardiola y lo destrozó</h3>
-          </div>
+  <section class="noticias">
+    <h1 class="noticias__titulo">Fútbol de Europa</h1>
+    <div class="noticias__contenedor">
+      <!-- Primera tarjeta -->
+      <article class="noticia">
+        <img src="/noticias-imagenes/tottenham.webp" alt="Imagen noticia 1" class="noticia__imagen">
+        <div class="noticia__contenido">
+          <span class="noticia__categoria">Premier League</span>
+          <h2 class="noticia__titulo">Duelo de argentinos en Inglaterra: el Chelsea de Enzo visita al Tottenham del Cuti</h2>
         </div>
-      </section>
-      
+      </article>
+      <!-- Segunda tarjeta -->
+      <article class="noticia">
+        <img src="/noticias-imagenes/antonio-accidente.webp" alt="Imagen noticia 2" class="noticia__imagen">
+        <div class="noticia__contenido">
+          <span class="noticia__categoria">Fútbol Internacional</span>
+          <h2 class="noticia__titulo">Michail Antonio sufrió un grave accidente de tránsito en Inglaterra</h2>
+        </div>
+      </article>
+      <!-- Tercera tarjeta -->
+      <article class="noticia">
+        <img src="/noticias-imagenes/edoardo-bove.webp" alt="Imagen noticia 3" class="noticia__imagen">
+        <div class="noticia__contenido">
+          <span class="noticia__categoria">Fútbol Internacional</span>
+          <h2 class="noticia__titulo">Por qué el hombre de la Fiorentina tiene prohibido jugar</h2>
+        </div>
+      </article>
+      <!-- Cuarta tarjeta -->
+      <article class="noticia">
+        <img src="/noticias-imagenes/nahuel-molina.webp" alt="Imagen noticia 4" class="noticia__imagen">
+        <div class="noticia__contenido">
+          <span class="noticia__categoria">La Liga</span>
+          <h2 class="noticia__titulo">Molina volvió a entrenarse tras su lesión</h2>
+        </div>
+      </article>
+    </div>
+  </section>
 </body>
 </html>

@@ -1,0 +1,68 @@
+// Variables de color
+$color-fondo: #f9f9f9;
+$color-titulo: #222;
+$color-categoria: #007bff;
+
+// Estilos principales
+.noticias {
+  padding: 20px;
+  background-color: $color-fondo;
+
+  &__titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: $color-titulo;
+    margin-bottom: 20px;
+  }
+
+  &__contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); // Dos columnas por defecto
+    gap: 20px;
+  }
+
+  // Responsividad
+  @media (max-width: 1024px) {
+    &__contenedor {
+      grid-template-columns: repeat(2, 1fr); // Dos columnas en tablet
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__contenedor {
+      grid-template-columns: 1fr; // Una columna en móviles
+    }
+  }
+}
+
+// Estilos para las tarjetas
+.noticia {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__imagen {
+    width: 100%;
+    height: auto;
+  }
+
+  &__contenido {
+    padding: 10px;
+
+    &__categoria {
+      font-size: 12px;
+      color: $color-categoria;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    &__titulo {
+      font-size: 16px;
+      font-weight: bold;
+      color: $color-titulo;
+      line-height: 1.4;
+    }
+  }
+}
